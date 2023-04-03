@@ -1,0 +1,82 @@
+#barraNav{
+    display: flex;
+    height: 70px;
+    border-bottom: 1px solid rgb(172, 172, 172);
+    align-items: center;
+    justify-content: space-between;
+}
+
+#barraNav img{
+    height: 60px;
+}
+
+#barraNav i{
+    font-size: 40px;
+}
+
+.iconoCategoria{
+    background-color: #415b7a;
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.iconoCategoria img{
+    height: 80%;
+    margin-top: 3px;
+}
+
+#recientemente{
+    display: flex;
+}
+
+#seccionListaCategorias{
+    display: flex;
+}
+
+.tarjetaHistorial{
+    margin: 0px 5px;
+    width: 200px;
+    color: aliceblue;
+    background-color:  #415b7a;
+}
+
+.tarjetaHistorial #superior img{
+    height: 100px;
+    width: 200px;
+}
+
+.tarjetaHistorial #inferior{
+    padding: 5px 0px;
+    background-color:  #415b7a;
+}
+
+.tarjetaHistorial #inferior span{
+    margin-left: 20px;
+}
+
+#seccionEmpresas{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+#imgEmpresa img{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    height: 100px;
+    width: 100%;
+}
+
+.empresas {
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+
+#nombre{
+}
